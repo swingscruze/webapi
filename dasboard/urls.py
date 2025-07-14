@@ -11,3 +11,4 @@ urlpatterns = [
     path("grab/<int:item>",views.GrabUrlItemApiViews.as_view()),
     path("product/",views.GrabParameterItemApiView.as_view()),
 
+]
