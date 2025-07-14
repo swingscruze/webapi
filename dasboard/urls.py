@@ -10,9 +10,4 @@ urlpatterns = [
     path("listall/",views.ShowAllItemApiView.as_view()),
     path("grab/<int:item>",views.GrabUrlItemApiViews.as_view()),
     path("product/",views.GrabParameterItemApiView.as_view()),
-    # path("product/<int:pk>/", views.Productdetails.as_view()),
-    path("product/create",views.Registerproduct.as_view()),
-    # path("removeproduct/"),
-    # path("updateproduct/"),
-    # path("searchproduct")
-]
+
