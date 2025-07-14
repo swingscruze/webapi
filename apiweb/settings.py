@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-bt2lfo6^6h^$32rh4an&_w$j+=^t9ry0rq-g@mntw9ay#eobqw'
 DEBUG = False
 
-ALLOWED_HOSTS = [".vercel.app","127.0.0.1"]  # Add your domain or IP address here
+ALLOWED_HOSTS = ["*"]  # Add your domain or IP address here
 
 
 # Quick-start development settings - unsuitable for production
