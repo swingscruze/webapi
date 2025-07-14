@@ -1,15 +1,3 @@
-from django.shortcuts import render, get_object_or_404
-from rest_framework.views import APIView, status
-from .serialization import CarSerializer
-from rest_framework.response import Response
-from .models import Luxury_car
-# Create your views here.
-
-import requests
-from io import BytesIO
-import mimetypes
-import os
-
 
 from django.http import FileResponse
 from rest_framework.views import APIView
